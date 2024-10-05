@@ -1,0 +1,23 @@
+.logoApple {
+    height: auto;
+    width: 200px;
+    margin-right: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .logoUbicacion,
+  .logoInstagram {
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .logoUbicacion:hover,
+  .logoInstagram:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }

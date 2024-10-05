@@ -1,0 +1,47 @@
+.header {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #fff5f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  body {
+    background-image: url(../../img/fondoBody.webp);
+    background-size: cover;
+    background-position: 60%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, p {
+    margin: 0;
+  }
+  
+  .titulo {
+    font-family: 'Bungee Tint', cursive;
+    font-size: 3rem;
+    color: $tertiary-color;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .subtitulo {
+    font-family: 'Noto Serif', serif;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: $primary-color;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-family: 'New Amsterdam', sans-serif;
+    font-size: 1rem;
+    color: $tertiary-color;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 20px 0;
+    padding: 0 10px;
+  }

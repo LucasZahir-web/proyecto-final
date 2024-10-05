@@ -1,0 +1,25 @@
+.footer {
+    background-color: #444343;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .logoInstagram {
+        margin-bottom: 15px;
+      }
+  
+      .txt-footer {
+        font-size: 1.5rem;
+        line-height: 1.4;
+        margin: 0;
+        padding: 15px;
+        text-align: center;
+        color: #fff6f6;
+      }
+    }
+  }

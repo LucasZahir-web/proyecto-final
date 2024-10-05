@@ -1,0 +1,46 @@
+.figure-img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  
+  .figure-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .img-accesorios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .img-accesorios img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .img-planC {
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .img-canje {
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  
+  .img-canje img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .img-canje .btn {
+    display: inline-block;
+    margin-top: 10px;
+  }

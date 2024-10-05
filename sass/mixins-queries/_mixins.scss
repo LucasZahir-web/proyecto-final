@@ -1,0 +1,26 @@
+@mixin background-image($url, $size: cover, $position: center) {
+  background-image: url($url);
+  background-size: $size;
+  background-position: $position;
+}
+
+@mixin flex-direction($direction, $align-items: flex-start, $justify-content: flex-start) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align-items;
+  justify-content: $justify-content;
+}
+
+@mixin media-query($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+@mixin transition($property, $duration, $timing) {
+  transition: $property $duration $timing;
+}

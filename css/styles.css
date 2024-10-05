@@ -1,0 +1,323 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-family: "Noto Serif", serif;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.card-text {
+  text-decoration: line-through;
+}
+
+.figure {
+  text-align: center;
+}
+
+.btn-cotizar {
+  display: inline-block;
+  background-color: #bd2929;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: "Noto Serif", serif;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cotizar:hover {
+  background-color: #a02323;
+}
+
+.figure-img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+@media (max-width: 992px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .logoApple {
+    margin-bottom: 10px;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;base64,...");
+  }
+  .titulo {
+    font-size: 3rem;
+  }
+  .subtitulo1 {
+    font-size: 2rem;
+  }
+  .card-img-top {
+    height: 200px;
+  }
+}
+@media (max-width: 576px) {
+  .titulo {
+    font-size: 2.5rem;
+  }
+  .subtitulo {
+    font-size: 1.5rem;
+  }
+  .card-img-top {
+    height: 200px;
+  }
+  .img-accesorios img {
+    max-width: 200px;
+  }
+  .logoUbicacion,
+  .logoInstagram {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 320px) {
+  .figure-img {
+    width: 90%;
+    height: auto;
+  }
+}
+.header {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #fff5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background-image: url(../../img/fondoBody.webp);
+  background-size: cover;
+  background-position: 60%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+.titulo {
+  font-family: "Bungee Tint", cursive;
+  font-size: 3rem;
+  color: #181717;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subtitulo {
+  font-family: "Noto Serif", serif;
+  font-size: 2rem;
+  text-decoration: underline;
+  color: #1f1d1c;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: "New Amsterdam", sans-serif;
+  font-size: 1rem;
+  color: #181717;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 20px 0;
+  padding: 0 10px;
+}
+
+.footer {
+  background-color: #444343;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+.footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .footer-content .logoInstagram {
+  margin-bottom: 15px;
+}
+.footer .footer-content .txt-footer {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  color: #fff6f6;
+}
+
+.navbar {
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 90%;
+  background-color: #1f1d1c;
+}
+.navbar .navbar-toggler {
+  border: none;
+  background-color: #6c757d;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LndvcmcuY29tL3htbG4iPgogIDxwYXRoIGQ9Ik00IDZoMTZNNCAxMmgxNkw0IDE4aDE2IiBzdHJva2U9IiN3aGl0IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvcGF0aD4KPC9zdmc+");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+}
+
+.ubicacion-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.ubicacion-container .logoUbicacion {
+  margin-bottom: 10px;
+  align-items: center;
+}
+.ubicacion-container .txt-ubicacion {
+  font-size: 2rem;
+  color: #181717;
+  margin: 20px 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.figure-img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.figure-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.img-accesorios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.img-accesorios img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.img-planC {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.img-canje {
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.img-canje img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-canje .btn {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.logoApple {
+  height: auto;
+  width: 200px;
+  margin-right: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logoUbicacion,
+.logoInstagram {
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.logoUbicacion:hover,
+.logoInstagram:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.video-container .video-responsive {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.video-container .txt-video {
+  font-size: 1.5rem;
+  font-family: "Noto Serif", serif;
+  color: #181717;
+  margin-top: 10px;
+}
+
+.mapa-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.mapa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
